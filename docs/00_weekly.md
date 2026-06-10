@@ -32,18 +32,18 @@
 
 ### Week 1 — YYYY-MM-DD
 
-**Attended this week's meeting:** Yes / No
+**Attended this week's meeting:** Yes (attend kick off meeeting)
 
 **Progress this week**
 - Set up repository from the FURP template.
-- _..._
+- read the relevant paper of VLN-CE, knowing the basic concept and the main obstacle we are facing.
 
 **Challenges & blockers**
-- _..._
+- Do not know what to do next ,need instruction, need partener
 
 **Next steps**
-- _..._
+- attend next meeting and make plan
 
-**Hours spent (optional):**
+**Hours spent (optional): 6 hours
 
-**Links (optional):**
+**Links (optional):** none
