@@ -46,3 +46,74 @@
 **Hours spent (optional):** 6 hours
 
 **Links (optional):** none
+
+
+### Week 2 — 2026/6/19
+
+**Attended this week's meeting:** Yes
+
+**Progress this week**
+-Finish a simple smoke test,evidence:<img width="865" height="282" alt="image" src="https://github.com/user-attachments/assets/d2b8c4e5-adba-4387-a761-4d12115ef657" />
+
+
+**Challenges & blockers**
+-can not visualise the result
+
+**Next steps**
+-do further test focus not just on can it work but how it can work better
+
+**Hours spent (optional):** 6h
+
+**Links (optional):** <img width="865" height="282" alt="image" src="https://github.com/user-attachments/assets/f0f00434-d546-4419-bfeb-496c44b2dadd" />
+command history:(habitat) scyjh11@subicomputer1:~$ history | tail -50
+agent_cfg = habitat_sim.agent.AgentConfiguration()
+agent_cfg.sensor_specifications = [sensor]
+
+sim_cfg = habitat_sim.Configuration(backend_cfg, [agent_cfg])
+sim = habitat_sim.Simulator(sim_cfg)
+
+obs = sim.get_sensor_observations()
+img = Image.fromarray(obs["color_sensor"])
+img.save("/tmp/smoke_test.png")
+print("Smoke test passed! Screenshot saved to /tmp/smoke_test.png")
+sim.close()
+EOF
+
+   33  sudo apt-get install -y libosmesa6-dev
+   34  python ~/smoke_test.py
+   35  conda install -y -c aihabitat -c conda-forge habitat-sim=0.3.3 headless
+   36  python ~/smoke_test.py
+   37  conda activate habitat
+   38  HABITAT_SIM_RENDERER=osmesa python ~/smoke_test.py
+   39  conda remove habitat-sim --force -y
+   40  conda install -c conda-forge -c aihabitat habitat-sim=0.3.3 headless_osmesa -y
+   41  cat > ~/smoke_test.py << 'EOF'
+import habitat_sim
+import numpy as np
+
+backend_cfg = habitat_sim.SimulatorConfiguration()
+backend_cfg.scene_id = "/home/scyjh11/habitat-data/scene_datasets/habitat-test-scenes/apartment_1.glb"
+backend_cfg.enable_physics = False
+
+agent_cfg = habitat_sim.agent.AgentConfiguration()
+agent_cfg.sensor_specifications = []
+
+sim_cfg = habitat_sim.Configuration(backend_cfg, [agent_cfg])
+sim = habitat_sim.Simulator(sim_cfg)
+
+agent = sim.initialize_agent(0)
+state = agent.get_state()
+print(f"Smoke test passed!")
+print(f"Agent starting position: {state.position}")
+print(f"Scene loaded: apartment_1.glb")
+sim.close()
+EOF
+
+   42  python ~/smoke_test.py
+   43  conda activate habitat
+   44  conda list | grep habitat
+   45  conda install -c aihabitat -c conda-forge habitat-sim=0.3.3 headless -y
+   46  conda list | grep habitat
+   47  python ~/smoke_test.py
+   48  history | tail -50
+
