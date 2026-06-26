@@ -117,3 +117,24 @@ EOF
    47  python ~/smoke_test.py
    48  history | tail -50
 
+### Week 3 — 2026/6/26
+
+**Attended this week's meeting:** Yes
+
+**Progress this week**
+-根据老师的指导准备给预训练模型做evaluation 申请matterport3d数据集 但还没收到回复
+
+<img width="1262" height="1168" alt="image" src="https://github.com/user-attachments/assets/47001ddf-1a17-4f42-8567-5a01c97d86b2" />
+
+等待的同时注册autodl 并在网上寻找现成的数据据链接
+
+**Challenges & blockers**
+- _What got in the way? What are you stuck on?_
+
+**Next steps**
+- _What will you do next week?_
+
+**Hours spent (optional):** _e.g. 6h_
+
+**Links (optional):** _commits, notebooks, docs, datasets..._
+
