@@ -133,6 +133,10 @@ EOF
 将ETPNav的开源算法克隆到本地
 
 
+<img width="2038" height="1276" alt="image" src="https://github.com/user-attachments/assets/b7bdea45-bddd-4647-9a41-eb256c0309b3" />
+
+将从网上找来的可行的预训练权重pt文件 和R2R任务数据集下载到本地的D盘位置
+
 **Challenges & blockers**
 - _What got in the way? What are you stuck on?_
 
