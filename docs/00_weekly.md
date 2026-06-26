@@ -128,6 +128,11 @@ EOF
 
 等待的同时注册autodl 并在网上寻找现成的数据据链接
 
+
+<img width="1958" height="694" alt="image" src="https://github.com/user-attachments/assets/5e51afee-632d-4976-a042-e6e9a5d6fc25" />
+将ETPNav的开源算法克隆到本地
+
+
 **Challenges & blockers**
 - _What got in the way? What are you stuck on?_
 
