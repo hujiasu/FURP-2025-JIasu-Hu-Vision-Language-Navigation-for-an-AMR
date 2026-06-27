@@ -137,11 +137,16 @@ EOF
 
 将从网上找来的可行的预训练权重pt文件 和R2R任务数据集下载到本地的D盘位置
 
-**Challenges & blockers**
--找不到matterport数据集 写邮件给他 但是后面在百度网盘上发现了别人下载好的 于是下载下来准备用了
+租借autodl机器开始跑
+<img width="2132" height="776" alt="image" src="https://github.com/user-attachments/assets/5e73c8ca-3d68-4e54-87a3-050a4037e868" />
 
-**Next steps**
-- 开始租机器 gpu 跑预训练模型
+
+**Challenges & blockers**
+-找不到matterport数据集 写邮件给他 他拒绝我 但是后面在百度网盘上发现了别人下载好的 于是下载下来用了
+
+**Next steps*
+
+跑预训练模型
 
 **Hours spent (optional):**  6h
 
