@@ -146,6 +146,7 @@ EOF
  我在那个租的机器上想装habitat sim 结果很难装上 一直显示在solving environment 导致我配不好环境 跑不起来预训练模型
  如图卡死
  <img width="2328" height="360" alt="image" src="https://github.com/user-attachments/assets/3620df9c-7492-45ea-a416-f26b10882e9c" />
+ 事实证明 是我不够有耐心 还是装下来了最后
 
 
 **Next steps*
