@@ -143,6 +143,7 @@ EOF
 
 **Challenges & blockers**
 -找不到matterport数据集 写邮件给他 他拒绝我 但是后面在百度网盘上发现了别人下载好的 于是下载下来用了
+ 我在那个租的机器上想装habitat sim 结果很难装上 一直显示在solving environment 导致我配不好环境 跑不起来预训练模型
 
 **Next steps*
 
