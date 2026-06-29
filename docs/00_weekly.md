@@ -149,6 +149,8 @@ EOF
  事实证明 是我不够有耐心 还是装下来了最后
 但是当我实际输入运行指令的时候 报错多到爆炸 根本调不完 现在在我修了一万个bug之后比如丢包 少字段 版本不匹配各种恶心问题 场景终于是成功加载出来了 实例也被创建出来了
 <img width="2376" height="1124" alt="image" src="https://github.com/user-attachments/assets/3f624b5d-b895-40e2-8afc-762ab9d5095d" />
+<img width="1170" height="864" alt="image" src="https://github.com/user-attachments/assets/68eab806-4cb3-44be-843f-33e31972717e" />
+
 
 
 **Next steps*
