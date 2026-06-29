@@ -147,7 +147,9 @@ EOF
  如图卡死
  <img width="2328" height="360" alt="image" src="https://github.com/user-attachments/assets/3620df9c-7492-45ea-a416-f26b10882e9c" />
  事实证明 是我不够有耐心 还是装下来了最后
-但是当我实际输入运行指令的时候 报错多到爆炸 根本调不完 现在在我修了一万个bug之后 场景终于是成功加载出来了 实例也被创建出来了
+但是当我实际输入运行指令的时候 报错多到爆炸 根本调不完 现在在我修了一万个bug之后比如丢包 少字段 版本不匹配各种恶心问题 场景终于是成功加载出来了 实例也被创建出来了
+<img width="2376" height="1124" alt="image" src="https://github.com/user-attachments/assets/3f624b5d-b895-40e2-8afc-762ab9d5095d" />
+
 
 **Next steps*
 
