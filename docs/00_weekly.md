@@ -168,7 +168,8 @@ EOF
 
 <img width="1254" height="914" alt="image" src="https://github.com/user-attachments/assets/7f179b82-88fb-4d6a-acd8-59142e7bf863" />
 
-![Uploading image.png…]()
+<img width="2270" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad8d322d-ea90-4ef9-9b82-a918bafacaeb" />
+
 
 **Challenges & blockers**
 - _What got in the way? What are you stuck on?_
