@@ -161,3 +161,23 @@ EOF
 
 **Links (optional):** none
 
+
+### Week N — YYYY-MM-DD
+
+**Attended this week's meeting:** Yes / No (if No, did you email leave? Yes / No)
+
+<img width="1254" height="914" alt="image" src="https://github.com/user-attachments/assets/7f179b82-88fb-4d6a-acd8-59142e7bf863" />
+
+
+**Challenges & blockers**
+- _What got in the way? What are you stuck on?_
+
+**Next steps**
+- _What will you do next week?_
+
+**Hours spent (optional):** _e.g. 6h_
+
+**Links (optional):** _commits, notebooks, docs, datasets..._
+
+
+
