@@ -162,7 +162,7 @@ EOF
 **Links (optional):** none
 
 
-### Week N — YYYY-MM-DD
+### Week 4 — 2026/7/8
 
 **Attended this week's meeting:** Yes / No (if No, did you email leave? Yes / No)
 
@@ -172,10 +172,11 @@ EOF
 
 
 **Challenges & blockers**
-- _What got in the way? What are you stuck on?_
+- 依旧版本不匹配 后面装了旧版本的python库 貌似解决了问题因为ai默认都装最新版本的 所以前面一直有很多冲突
+- 本来以为版本弄完可以跑eval了 发现一直卡死再初始化阶段 检查才发现居然之前下的预训练模型居然缺失了 但是发现如果整个下载的话下载不下 于是清理了很多日志等 与跑eval无关的文件 最后成功下载下来了磁盘只有30G 确实太紧张
 
 **Next steps**
-- _What will you do next week?_
+- 再次跑eval 感觉总应该没啥问题了吧 如果还有问题继续改
 
 **Hours spent (optional):** _e.g. 6h_
 
