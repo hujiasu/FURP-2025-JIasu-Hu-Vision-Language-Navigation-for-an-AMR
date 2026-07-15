@@ -183,4 +183,22 @@ EOF
 **Links (optional):** _commits, notebooks, docs, datasets..._
 
 
+### Week 5 — 2026/7/15
+
+**Attended this week's meeting:** Yes
+
+**Progress this week**
+- 确实预训练模型 成功下载 但还是卡在初始阶段 他说找不到我下载的matterport3d数据集 我正在重新传
+
+**Challenges & blockers**
+- <img width="2334" height="1042" alt="image" src="https://github.com/user-attachments/assets/d2371106-da20-451d-a481-a5808fce4eff" />
+
+
+**Next steps**
+- _What will you do next week?_
+
+**Hours spent (optional):** _e.g. 6h_
+
+**Links (optional):** _commits, notebooks, docs, datasets..._
+
 
