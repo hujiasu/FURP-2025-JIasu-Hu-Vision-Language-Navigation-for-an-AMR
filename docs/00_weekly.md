@@ -207,7 +207,7 @@ connectivity_graphs.pkl 也在
 场景文件(.glb) —— 这是最关键的缺口。
 
 **Next steps**
-- _What will you do next week?_
+- 前几周就是因为版本问题卡死在这上面 不降级永远都跑不通 代码一堆错误 现在克隆到另一个机子上面 版本降级了 但是少很多文件 预训练模型啊 checkpoint啊 但是现在基本上补齐了 就差一个场景数据集了
 
 **Hours spent (optional):** _e.g. 6h_
 
