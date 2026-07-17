@@ -193,6 +193,18 @@ EOF
 **Challenges & blockers**
 - <img width="2334" height="1042" alt="image" src="https://github.com/user-attachments/assets/d2371106-da20-451d-a481-a5808fce4eff" />
 
+从目前掌握的情况看,大致是这样:
+
+已经具备的:
+
+conda 环境(etpnav)已装好,依赖跑通过
+预训练权重 pretrained/ETP/mlm.sap_r2r/ckpts/model_step_82500.pt 有了
+eval checkpoint ckpt.iter12000.pth 也下载完了
+数据集 annotation(R2R_VLNCE_v1-2 及预处理版本的 .json.gz)已经在容器里
+connectivity_graphs.pkl 也在
+还差的,按顺序:
+
+场景文件(.glb) —— 这是最关键的缺口。
 
 **Next steps**
 - _What will you do next week?_
