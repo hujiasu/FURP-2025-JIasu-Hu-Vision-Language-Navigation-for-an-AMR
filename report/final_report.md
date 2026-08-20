@@ -60,13 +60,7 @@ Standard evaluation metrics are:
 - **NE (Navigation Error):** the geodesic distance, in meters, between the agent's final position and the goal.
 - **SR (Success Rate):** the fraction of episodes with NE less than $d_{th}$.
 - **OSR (Oracle Success Rate):** success is counted if the closest point along the *entire trajectory* (not just the final position) satisfies NE less than $d_{th}$.
-- **SPL (Success weighted by Path Length):** defined as
-
-$$
-\text{SPL} = \frac{1}{N}\sum_{i=1}^{N} S_i \frac{\ell_i^*}{\max(\ell_i, \ell_i^*)}
-$$
-
-where $S_i$ is a binary success indicator for episode $i$, $\ell_i$ is the agent's trajectory length, and $\ell_i^*$ is the shortest-path length to the goal. SPL jointly penalizes both failure and inefficient (overly long) successful trajectories, and is generally treated as the primary ranking metric in VLN-CE literature.
+- **SPL (Success weighted by Path Length):** SPL jointly penalizes both failure and inefficient (overly long) successful trajectories, and is generally treated as the primary ranking metric in VLN-CE literature.
 
 This project targets the **R2R-CE Val Unseen** split, which evaluates generalization to environments not seen during training, using ETPNav's officially released pretrained checkpoint.
 
